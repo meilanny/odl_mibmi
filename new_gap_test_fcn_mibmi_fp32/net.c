@@ -35,23 +35,6 @@ PI_L2 int L2_memocc_bytes = 0;
 
 PI_L2 float zero_init = 0.0f; //PI_L1
 
-#ifdef FORWARD
-PI_L1 float l0_in[Tin_l0];
-PI_L1 float l0_ker[Tker_l0];
-PI_L1 float l0_out[Tout_l0]; 
-#endif
-
-#ifdef BACKWARD_ERROR
-PI_L1 float l0_in_diff [Tin_l0];
-PI_L1 float l0_ker[Tker_l0];
-PI_L1 float l0_out_diff [Tout_l0];
-#endif
-
-#ifdef BACKWARD_GRAD
-PI_L1 float l0_in[Tin_l0];
-PI_L1 float l0_ker_diff[Tker_l0];
-PI_L1 float l0_out_diff [Tout_l0];
-#endif
 
 #ifdef FORWARD_BACKWARD_PROP
 PI_L2 float l0_in[Tin_l0]; //PI_L1
@@ -69,6 +52,21 @@ PI_L2 struct loss_args loss_args; //PI_L1
 
 #ifdef FORWARD_BACKWARD_PROP
 static inline void tensor_init() 
+{
+  for (int i=0; i<Tin_l0; i++)        l0_in[i] = INPUT_VECTOR[i];
+  for (int i=0; i<Tker_l0; i++)       l0_ker[i] = L0_WEIGHTS_params[i];
+  for (int i=0; i<Tout_l0; i++)       l0_out[i] = zero_init; 
+  
+  for (int i=0; i<Tin_l0; i++)        l0_in_diff[i] = zero_init;
+  for (int i=0; i<Tker_l0; i++)       l0_ker_diff[i] = zero_init;
+  for (int i=0; i<Tout_l0; i++)       l0_out_diff[i] = zero_init;  
+
+  for (int i=0; i<Tout_l0; i++)       l0_act_out[i] = zero_init;
+  for (int i=0; i<Tout_l0; i++)       l0_act_out_diff[i] = zero_init;
+  
+}
+
+static inline void tensor_init_from_DORY() 
 {
   for (int i=0; i<Tin_l0; i++)        l0_in[i] = INPUT_VECTOR[i];
   for (int i=0; i<Tker_l0; i++)       l0_ker[i] = L0_WEIGHTS_params[i];
@@ -150,174 +148,7 @@ static inline void update_weights()
   pi_cl_team_fork(NUM_CORES, pulp_gradient_descent_fp32, &opt_l0);
   // pulp_gradient_descent_fp32(&opt_l0);
 }
-
-
 #endif
-
-
-#ifdef FORWARD
-static inline void tensor_init() 
-{
-  for (int i=0; i<Tin_l0; i++)        l0_in[i] = INPUT_VECTOR[i];
-  for (int i=0; i<Tker_l0; i++)       l0_ker[i] = L0_WEIGHTS_params[i];
-  for (int i=0; i<Tout_l0; i++)       l0_out[i] = zero_init; 
-}
-
-static inline void connect_blobs() 
-{
-  layer0_in.data = l0_in;
-  layer0_in.dim = Tin_l0;
-
-  layer0_wgt.data = l0_ker;
-  layer0_wgt.dim = Tker_l0;
-
-  layer0_out.data = l0_out;
-  layer0_out.dim = Tout_l0;
-
-  FC_args.input = &layer0_in;
-  FC_args.coeff = &layer0_wgt;
-  FC_args.output = &layer0_out;
-  FC_args.skip_in_grad = 1;
-  FC_args.opt_matmul_type_fw = MATMUL_TYPE;
-  FC_args.opt_matmul_type_wg = MATMUL_TYPE;
-  FC_args.opt_matmul_type_ig = MATMUL_TYPE;
-}
-
-static inline void compute_memory_occupation(){
-  // Input
-  L1_memocc_bytes += Tin_l0*sizeof(float);
-  // Kernel
-  L1_memocc_bytes += Tker_l0*sizeof(float); 
-  // Output
-  L1_memocc_bytes += Tout_l0*sizeof(float);
-
-  // Input data
-  L2_memocc_bytes += L0_IN_CH*sizeof(float);
-  // Weights
-  L2_memocc_bytes += L0_WEIGHTS*sizeof(float);
-  // Output
-  L2_memocc_bytes += L0_OUT_CH*sizeof(float);
-  // Output gradient
-  L2_memocc_bytes += L0_OUT_CH*sizeof(float);
-  // Weight gradient
-  L2_memocc_bytes += L0_WEIGHTS*sizeof(float);
-  // Input gradient
-  L2_memocc_bytes += L0_IN_CH*sizeof(float);
-}
-#endif
-
-
-#ifdef BACKWARD_ERROR
-static inline void tensor_init() 
-{
-  for (int i=0; i<Tin_l0; i++)        l0_in_diff[i] = zero_init;
-  for (int i=0; i<Tker_l0; i++)       l0_ker[i] = L0_WEIGHTS_params[i];
-  for (int i=0; i<Tout_l0; i++)       l0_out_diff[i] = L0_OUT_GRAD[i]; 
-}
-
-static inline void connect_blobs() 
-{
-  layer0_in.diff = l0_in_diff;
-  layer0_in.dim = Tin_l0;
-
-  layer0_wgt.data = l0_ker;
-  layer0_wgt.dim = Tker_l0;
-
-  layer0_out.diff = l0_out_diff;
-  layer0_out.dim = Tout_l0;  
-
-  FC_args.input = &layer0_in;
-  FC_args.coeff = &layer0_wgt;
-  FC_args.output = &layer0_out;
-  FC_args.skip_in_grad = 0;
-  FC_args.opt_matmul_type_fw = MATMUL_TYPE;
-  FC_args.opt_matmul_type_wg = MATMUL_TYPE;
-  FC_args.opt_matmul_type_ig = MATMUL_TYPE;
-}
-
-static inline void compute_memory_occupation(){
-  // Input grad
-  L1_memocc_bytes += Tin_l0*sizeof(float);
-  // Kernel
-  L1_memocc_bytes += Tker_l0*sizeof(float); 
-  // Output grad
-  L1_memocc_bytes += Tout_l0*sizeof(float);
-
-  // Input data
-  L2_memocc_bytes += L0_IN_CH*sizeof(float);
-  // Weights
-  L2_memocc_bytes += L0_WEIGHTS*sizeof(float);
-  // Output
-  L2_memocc_bytes += L0_OUT_CH*sizeof(float);
-  // Output gradient
-  L2_memocc_bytes += L0_OUT_CH*sizeof(float);
-  // Weight gradient
-  L2_memocc_bytes += L0_WEIGHTS*sizeof(float);
-  // Input gradient
-  L2_memocc_bytes += L0_IN_CH*sizeof(float);
-}
-#endif
-
-
-#ifdef BACKWARD_GRAD
-static inline void tensor_init() 
-{
-  for (int i=0; i<Tin_l0; i++)        l0_in[i] = INPUT_VECTOR[i];
-  for (int i=0; i<Tker_l0; i++)       l0_ker_diff[i] = zero_init;
-  for (int i=0; i<Tout_l0; i++)       l0_out_diff[i] = L0_OUT_GRAD[i];   
-}
-
-static inline void connect_blobs() 
-{
-  layer0_in.data = l0_in;
-  layer0_in.dim = Tin_l0;
-
-  layer0_wgt.diff = l0_ker_diff;
-  layer0_wgt.dim = Tker_l0;
-
-  layer0_out.diff = l0_out_diff;
-  layer0_out.dim = Tout_l0;  
-
-  FC_args.input = &layer0_in;
-  FC_args.coeff = &layer0_wgt;
-  FC_args.output = &layer0_out;
-  FC_args.skip_in_grad = 0;
-  FC_args.opt_matmul_type_fw = MATMUL_TYPE;
-  FC_args.opt_matmul_type_wg = MATMUL_TYPE;
-  FC_args.opt_matmul_type_ig = MATMUL_TYPE;
-}
-
-static inline void compute_memory_occupation(){
-  // Input
-  L1_memocc_bytes += Tin_l0*sizeof(float);
-  // Kernel grad
-  L1_memocc_bytes += Tker_l0*sizeof(float); 
-  // Output grad
-  L1_memocc_bytes += Tout_l0*sizeof(float);
-
-  // Input data
-  L2_memocc_bytes += L0_IN_CH*sizeof(float);
-  // Weights
-  L2_memocc_bytes += L0_WEIGHTS*sizeof(float);
-  // Output
-  L2_memocc_bytes += L0_OUT_CH*sizeof(float);
-  // Output gradient
-  L2_memocc_bytes += L0_OUT_CH*sizeof(float);
-  // Weight gradient
-  L2_memocc_bytes += L0_WEIGHTS*sizeof(float);
-  // Input gradient
-  L2_memocc_bytes += L0_IN_CH*sizeof(float);
-}
-#endif
-
-
-
-static inline void net_forward(){
-  /**  FORWARD FC #1   **/
-  #ifdef FORWARD
-  pulp_linear_fp32_fw_cl(&FC_args);
-  #endif
-}
 
 static inline void compare_tensors(float *A, float *B, int length){
 
@@ -367,54 +198,6 @@ int check_tensor(float * tensor_out, float * tensor_ref, int size){
 
 static inline void train(){
 
-  #ifdef PROF_FWD
-  printf("\nForward stats\n");
-  START_STATS();
-  #endif
-
-  #ifdef FORWARD
-  pulp_linear_fp32_fw_cl(&FC_args);
-  #endif
-
-  #ifdef PROF_FWD
-  STOP_STATS();
-  #endif
-
-  #ifdef PROF_BCKWD
-  printf("\nBackward stats\n");
-  START_STATS();
-  #endif
-
-  #ifdef BACKWARD_ERROR
-  pulp_linear_fp32_bw_input_grads_cl(&FC_args);
-  #endif
-
-  #ifdef BACKWARD_GRAD
-  pulp_linear_fp32_bw_param_grads_cl(&FC_args);
-  #endif
-
-  #ifdef PROF_BCKWD
-  STOP_STATS();
-  #endif
-
-  #ifdef FORWARD
-  printf("FORWARD CHECK: \n");
-  compare_tensors(l0_out, L0_OUT_FW, Tout_l0);
-  check_tensor(l0_out, L0_OUT_FW, Tout_l0);
-  #endif
-
-  #ifdef BACKWARD_ERROR
-  printf("INPUTS GRADIENT CHECK: \n");
-  compare_tensors(l0_out_diff, L0_OUT_GRAD, Tout_l0);
-  check_tensor(l0_out_diff, L0_OUT_GRAD, Tout_l0);
-  #endif
-
-  #ifdef BACKWARD_GRAD
-  printf("WEIGHTS GRADIENT CHECK: \n");
-  compare_tensors(l0_ker_diff, L0_WEIGHT_GRAD, Tker_l0);
-  check_tensor(l0_ker_diff, L0_WEIGHT_GRAD, Tker_l0);
-  #endif   
-  
   #ifdef FORWARD_BACKWARD_PROP
   pulp_linear_fp32_fw_cl(&FC_args);
   
@@ -465,7 +248,18 @@ void net_step(void *args)
   printf("\nL2 memory occupation: %d bytes.\n", L2_memocc_bytes);
   #endif
 
-  tensor_init();
+  float eps_in = 0.0039215689; // TODO: double check!
+
+  for (int i=0; i<Tin_l0; i++) {
+    INPUT_VECTOR[i] = ((float)((uint8_t*)l2_buffer)[i]) * eps_in; //((float) *((uint8_t *l2_buffer)+i)) * eps_in;
+    printf("%d     %f    \n", ((uint8_t*)l2_buffer)[i], INPUT_VECTOR[i]);
+  }
+
+  //tensor_init();
+  if (init == 1) {
+    tensor_init_from_DORY();
+  }
+  //tensor_init_from_DORY();
   connect_blobs();
   
   #ifdef FORWARD_BACKWARD_PROP

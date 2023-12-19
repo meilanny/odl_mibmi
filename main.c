@@ -94,7 +94,7 @@ void application(void * arg) {
   args_init[1] = (unsigned int) L2_FC_layer_weights_int8;
   args_init[2] = (unsigned int) L2_FC_layer_weights_float;
   args_init[3] = (unsigned int) 0; // update = 0
-  args_init[4] = (unsigned int) 1; // init = 0
+  args_init[4] = (unsigned int) 1; // init = 1
   args_init[5] = (unsigned int) 100; // dummy class
   args_init[6] = (float*) &ce_loss;
 
