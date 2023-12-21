@@ -102,15 +102,17 @@ void application(void * arg) {
   pi_cluster_send_task_to_cl(&cluster_dev, pi_cluster_task(&cl_task, net_step, args_init));
 
   printf("Net training successful!\n");
+  printf("Current CE Loss: %f!\n", ce_loss);
   pi_cluster_close(&cluster_dev);
 
-  pmsis_exit(0);
-
+  
   pi_l2_free(l2_buffer, 500000);
 
   pi_l2_free(L2_FC_layer_weights_float, 2 * 928 * 4);
 
   pi_l2_free(L2_FC_layer_weights_int8, weights_size[6]);
+
+  pmsis_exit(0);
 }
 
 int main () {

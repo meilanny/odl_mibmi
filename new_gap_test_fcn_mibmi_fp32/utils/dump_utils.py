@@ -76,7 +76,7 @@ def tensor_to_string(tensor):
     
 def main():
 	import argparse
-	parser = argparse.ArgumentParser("FCN Layer Test")
+	parser = argparse.ArgumentParser("FCL Layer Test")
 	parser.add_argument( '--in_size', type=int, default=2,
 	    help="An integer will be increased by 1 and printed." )
 	parser.add_argument( '--out_size', type=int, default=2,

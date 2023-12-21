@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+// TODO: find a way to reshape and compare the two weight vectors! Maybe export the array stored in L2 in DORY? Modify golden model.
+
 #define MEMOCC_COMP
 
 #include "pulp_train.h"
@@ -25,10 +27,13 @@
 
 // DATA DEFINITION
 
+
+PI_L2 float L0_BIAS_params[Tout_l0];
+
 // LINEAR
 PI_L2 struct Linear_args FC_args; //PI_L1
 PI_L2 struct act_args act_args; //PI_L1
-PI_L2 struct blob layer0_in, layer0_wgt, layer0_out, layer0_act_out; //PI_L1
+PI_L2 struct blob layer0_in, layer0_wgt, layer0_out, layer0_act_out, layer0_bias; //PI_L1
 // Memory occupation counter
 PI_L2 int L1_memocc_bytes = 0;
 PI_L2 int L2_memocc_bytes = 0;
@@ -45,6 +50,12 @@ PI_L2 float l0_ker_diff[Tker_l0]; //PI_L1
 PI_L2 float l0_out_diff [Tout_l0]; //PI_L1
 PI_L2 float l0_act_out[Tout_l0]; //PI_L1
 PI_L2 float l0_act_out_diff [Tout_l0]; //PI_L1
+
+PI_L2 float l0_bias[Tout_l0]; //PI_L1
+PI_L2 float l0_bias_diff[Tout_l0]; //PI_L1
+
+PI_L2 float l0_final_out[Tout_l0]; //PI_L1
+
 
 PI_L2 float loss = 0; //PI_L1
 PI_L2 struct loss_args loss_args; //PI_L1
@@ -78,6 +89,9 @@ static inline void tensor_init_from_DORY()
 
   for (int i=0; i<Tout_l0; i++)       l0_act_out[i] = zero_init;
   for (int i=0; i<Tout_l0; i++)       l0_act_out_diff[i] = zero_init;
+
+  for (int i=0; i<Tout_l0; i++)       l0_bias[i] = L0_BIAS_params[i];
+  for (int i=0; i<Tout_l0; i++)       l0_bias_diff[i] = zero_init;  
   
 }
 
@@ -90,6 +104,10 @@ static inline void connect_blobs()
   layer0_wgt.data = l0_ker;
   layer0_wgt.dim = Tker_l0;
   layer0_wgt.diff = l0_ker_diff;
+
+  layer0_bias.data = l0_bias;
+  layer0_bias.dim = Tout_l0;
+  layer0_bias.diff = l0_bias_diff;
   
   layer0_out.data = l0_out;
   layer0_out.dim = Tout_l0;
@@ -140,13 +158,19 @@ static inline void compute_memory_occupation(){
   L2_memocc_bytes += L0_IN_CH*sizeof(float);
 }
 
-static inline void update_weights()
+static inline void update_weights_and_bias()
 {
   struct optim_args opt_l0;
   opt_l0.weights = &layer0_wgt;
   opt_l0.learning_rate = LEARNING_RATE;
   pi_cl_team_fork(NUM_CORES, pulp_gradient_descent_fp32, &opt_l0);
   // pulp_gradient_descent_fp32(&opt_l0);
+
+  // gradient descent - bias!
+  struct optim_args opt_l0_bias;
+  opt_l0_bias.weights = &layer0_bias;
+  opt_l0_bias.learning_rate = LEARNING_RATE;
+  pi_cl_team_fork(NUM_CORES, pulp_gradient_descent_fp32, &opt_l0_bias);
 }
 #endif
 
@@ -154,7 +178,7 @@ static inline void compare_tensors(float *A, float *B, int length){
 
   float mean_err_rel = 0.0f;
   float diff = 0.0f;
-  float den = 0.000001f;
+  float den = 0.000001f; //0.000001f;
 
   for(int i=0; i<length; i++){
      if (A[i]>B[i] && A[i]>0.0f){
@@ -162,7 +186,9 @@ static inline void compare_tensors(float *A, float *B, int length){
         if (diff>0) diff = diff;
         else diff=-diff;
         if (A[i]>0) den = A[i];
-        else den = -A[i]; // missing A = 0
+        //else den = -A[i];
+        else if (A[i]<0) den = -A[i]; // missing A = 0
+        else den = 0.000001f;
         mean_err_rel = mean_err_rel + (diff / den)/length;
      }
      else{
@@ -170,7 +196,9 @@ static inline void compare_tensors(float *A, float *B, int length){
        if (diff>0) diff = diff;
        else diff=-diff;
        if (A[i]>0) den = A[i];
-       else den = -A[i];
+       //else den = -A[i];
+       else if (A[i]<0) den = -A[i]; // missing A = 0
+       else den = 0.000001f;
        mean_err_rel = mean_err_rel + (diff / den)/length;
      }
   }
@@ -200,17 +228,31 @@ static inline void train(){
 
   #ifdef FORWARD_BACKWARD_PROP
   pulp_linear_fp32_fw_cl(&FC_args);
+
+  for (int i=0; i<Tout_l0; i++)       l0_out[i] = l0_out[i] + l0_bias[i]; 
+
+  pulp_softmax_fp32_fw_cl(&act_args);
   
   loss_args.output = &layer0_act_out;
   loss_args.target = LABEL;
   loss_args.wr_loss = &loss;
-  pulp_softmax_fp32_fw_cl(&act_args);
+  // NOTE: Davide modified outDiff[i] = (-target[i]+outData[i]) to outDiff[i] = (-target[i] / outData[i]) in a new commit
   pulp_CrossEntropyLoss(&loss_args);
-  layer0_out.diff = layer0_act_out.diff;
+  //layer0_out.diff = layer0_act_out.diff;
+  for (int i=0; i<Tout_l0; i++)       l0_out_diff[i] = layer0_act_out.diff[i]; 
+
+  //for (int i=0; i<Tin_l0; i++) {
+  //  printf("INPUT: %f    \n", FC_args.input->data[i]); //((float) *((uint8_t *l2_buffer)+i)) * eps_in;
+  //  //printf("%d     %f    \n", ((uint8_t*)l2_buffer)[i], INPUT_VECTOR[i]);
+  //}
   
-  pulp_linear_fp32_bw_cl(&FC_args);
+  //pulp_linear_fp32_bw_cl(&FC_args);
   //pulp_linear_fp32_bw_input_grads_cl(&FC_args);
-  //pulp_linear_fp32_bw_param_grads_cl(&FC_args);
+  pulp_linear_fp32_bw_param_grads_cl(&FC_args);
+
+  // Derivative of bias can directly be regarded as derivative of outputs, as y = w*x + b, derivative of b = 1.
+  //layer0_bias.diff = layer0_act_out.diff;
+  for (int i=0; i<Tout_l0; i++)       l0_bias_diff[i] = layer0_act_out.diff[i]; 
 
   #endif
 
@@ -248,11 +290,29 @@ void net_step(void *args)
   printf("\nL2 memory occupation: %d bytes.\n", L2_memocc_bytes);
   #endif
 
+  // Float32 inputs
   float eps_in = 0.0039215689; // TODO: double check!
 
   for (int i=0; i<Tin_l0; i++) {
     INPUT_VECTOR[i] = ((float)((uint8_t*)l2_buffer)[i]) * eps_in; //((float) *((uint8_t *l2_buffer)+i)) * eps_in;
-    printf("%d     %f    \n", ((uint8_t*)l2_buffer)[i], INPUT_VECTOR[i]);
+  }
+
+  // Float32 weights
+  float eps_w = 0.0010615624;
+
+  for (int i=0; i<Tin_l0*Tout_l0; i++) {
+    L0_WEIGHTS_params[i] = ((float)((int8_t*)L2_FC_layer_weights_int8)[i]) * eps_w; //((float) *((uint8_t *l2_buffer)+i)) * eps_in;
+    // printf("%d     %f    \n", ((int8_t*)L2_FC_layer_weights_int8)[i], L0_WEIGHTS_params[i]);
+  }
+
+  // TBD: bias?
+  float eps_b = eps_in * eps_w;
+
+  int32_t *L2_FC_layer_bias = (int8_t*)L2_FC_layer_weights_int8 + Tin_l0*Tout_l0;
+
+  for (int i=0; i<Tout_l0; i++) {
+    L0_BIAS_params[i] = ((float) L2_FC_layer_bias[i]) * eps_b; //((float)((int32_t*)((int8_t*)L2_FC_layer_weights_int8+Tin_l0*Tout_l0))[i]) * eps_b; //((float) *((uint8_t *l2_buffer)+i)) * eps_in;
+    //printf("Bias[%d]: %f    \n", i, L0_BIAS_params[i]);
   }
 
   //tensor_init();
@@ -266,8 +326,8 @@ void net_step(void *args)
 
   for (int epoch=0; epoch < NUM_EPOCHS; epoch++){
       train();
-      update_weights();
-    
+      if (update == 1)
+        update_weights_and_bias();
   }
   
   #endif
@@ -276,26 +336,41 @@ void net_step(void *args)
   STOP_STATS();
   #endif
 
+  // for (int i=0; i<Tout_l0; i++)       l0_final_out[i] = l0_out[i] + l0_bias[i]; 
+
   #ifdef FORWARD_BACKWARD_PROP
   printf("FORWARD CHECK: \n");
   compare_tensors(l0_out, L0_OUT_FW_LAST, Tout_l0);
   check_tensor(l0_out, L0_OUT_FW_LAST, Tout_l0);
 
-  //printf("OUT GRADIENT CHECK: \n");
-  //compare_tensors(l0_out_diff, L0_OUT_GRAD, Tout_l0);
-  //check_tensor(l0_out_diff, L0_OUT_GRAD, Tout_l0);
-  
+  // //printf("OUT GRADIENT CHECK: \n");
+  // //compare_tensors(l0_out_diff, L0_OUT_GRAD, Tout_l0);
+  // //check_tensor(l0_out_diff, L0_OUT_GRAD, Tout_l0);
+
   printf("WEIGHTS GRADIENT CHECK: \n"); 
   compare_tensors(l0_ker_diff, L0_WEIGHT_GRAD_LAST, Tker_l0);
   check_tensor(l0_ker_diff, L0_WEIGHT_GRAD_LAST, Tker_l0);
 
-  //printf("INPUTS GRADIENT CHECK: \n"); 
-  //compare_tensors(l0_in_diff, L0_IN_GRAD_LAST, Tin_l0);
-  //check_tensor(l0_in_diff, L0_IN_GRAD_LAST, Tin_l0);
+  printf("BIAS GRADIENT CHECK: \n"); 
+  compare_tensors(l0_bias_diff, L0_BIAS_GRAD_LAST, Tout_l0);
+  check_tensor(l0_bias_diff, L0_BIAS_GRAD_LAST, Tout_l0);
+
+  // //printf("INPUTS GRADIENT CHECK: \n"); 
+  // //compare_tensors(l0_in_diff, L0_IN_GRAD_LAST, Tin_l0);
+  // //check_tensor(l0_in_diff, L0_IN_GRAD_LAST, Tin_l0);
 
   printf("LOSS CHECK - Last epoch: \n"); 
   printf("Real loss is %f, GM loss is %f: \n", loss, L0_LOSS_LAST); 
   #endif
+
+  if (init == 1) {
+    for (int i=0; i<Tin_l0*Tout_l0; i++)
+      *((float*)(L2_FC_layer_weights_float+i)) = *((float*)(layer0_wgt.data+i));
+  }
+
+  *ce_loss = loss;
+
+  printf("Weights updated and stored in L2_FC_layer_weights_float!\n");
 
   return;
 }

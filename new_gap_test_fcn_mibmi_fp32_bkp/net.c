@@ -26,14 +26,14 @@
 // DATA DEFINITION
 
 // LINEAR
-PI_L2 struct Linear_args FC_args; //PI_L1
-PI_L2 struct act_args act_args; //PI_L1
-PI_L2 struct blob layer0_in, layer0_wgt, layer0_out, layer0_act_out; //PI_L1
+PI_L1 struct Linear_args FC_args; //PI_L1
+PI_L1 struct act_args act_args; //PI_L1
+PI_L1 struct blob layer0_in, layer0_wgt, layer0_out, layer0_act_out; //PI_L1
 // Memory occupation counter
 PI_L2 int L1_memocc_bytes = 0;
 PI_L2 int L2_memocc_bytes = 0;
 
-PI_L2 float zero_init = 0.0f; //PI_L1
+PI_L1 float zero_init = 0.0f; //PI_L1
 
 #ifdef FORWARD
 PI_L1 float l0_in[Tin_l0];
@@ -54,17 +54,17 @@ PI_L1 float l0_out_diff [Tout_l0];
 #endif
 
 #ifdef FORWARD_BACKWARD_PROP
-PI_L2 float l0_in[Tin_l0]; //PI_L1
-PI_L2 float l0_ker[Tker_l0]; //PI_L1
-PI_L2 float l0_out[Tout_l0]; //PI_L1
-PI_L2 float l0_in_diff [Tin_l0]; //PI_L1
-PI_L2 float l0_ker_diff[Tker_l0]; //PI_L1
-PI_L2 float l0_out_diff [Tout_l0]; //PI_L1
-PI_L2 float l0_act_out[Tout_l0]; //PI_L1
-PI_L2 float l0_act_out_diff [Tout_l0]; //PI_L1
+PI_L1 float l0_in[Tin_l0]; //PI_L1
+PI_L1 float l0_ker[Tker_l0]; //PI_L1
+PI_L1 float l0_out[Tout_l0]; //PI_L1
+PI_L1 float l0_in_diff [Tin_l0]; //PI_L1
+PI_L1 float l0_ker_diff[Tker_l0]; //PI_L1
+PI_L1 float l0_out_diff [Tout_l0]; //PI_L1
+PI_L1 float l0_act_out[Tout_l0]; //PI_L1
+PI_L1 float l0_act_out_diff [Tout_l0]; //PI_L1
 
-PI_L2 float loss = 0; //PI_L1
-PI_L2 struct loss_args loss_args; //PI_L1
+PI_L1 float loss = 0; //PI_L1
+PI_L1 struct loss_args loss_args; //PI_L1
 #endif
 
 #ifdef FORWARD_BACKWARD_PROP

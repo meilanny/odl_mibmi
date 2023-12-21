@@ -25,11 +25,12 @@ import torch.nn.functional as F
 import torch.optim as optim
 import argparse
 import dump_utils as dump
+import numpy as np
 
 #Visualize data with more precision
 torch.set_printoptions(precision=10, sci_mode=False)
 
-parser = argparse.ArgumentParser("FCN Layer Test")
+parser = argparse.ArgumentParser("FCL Layer Test")
 parser.add_argument( '--in_size', type=int, default=928 )
 parser.add_argument( '--out_size', type=int, default=2 )
 parser.add_argument( '--file_name', type=str, default='linear-data.h')
@@ -69,7 +70,7 @@ class LinLayer (nn.Module):
 
     def __init__(self):
         super(LinLayer, self).__init__()
-        self.lin = nn.Linear(in_features=in_size, out_features=out_size, bias=False)
+        self.lin = nn.Linear(in_features=in_size, out_features=out_size, bias=True)
 
     def forward(self, x):
         out = self.lin(x)
@@ -78,19 +79,39 @@ class LinLayer (nn.Module):
 
 # Training hyperparameters
 #lr = 1
-initial_weights = torch.zeros(out_size, in_size) 
+#initial_weights = torch.zeros(out_size, in_size) 
 
-temp_value = 0.01
-if simple_kernel:
-    initial_weights[0:out_size] = 0.01
-else:
-    for i in range(out_size):
-        for j in range(in_size):
-            initial_weights[i][j] = temp_value
-            temp_value = temp_value + 0.01
+#temp_value = 0.01
+#if simple_kernel:
+#    initial_weights[0:out_size] = 0.01
+#else:
+#    for i in range(out_size):
+#        for j in range(in_size):
+#            initial_weights[i][j] = temp_value
+#            temp_value = temp_value + 0.01
 
-indata = torch.div(torch.ones(in_size), 100000)
+eps_in = 0.0039215689
+eps_w = 0.0010615624
+
+initial_weights = torch.from_numpy(np.squeeze(np.load("weights_fc.npy"))).to(torch.float32)
+initial_weights = torch.reshape((torch.transpose(torch.reshape(initial_weights, (2,32,29)), 1, 2)), (2,928))
+for i in range(out_size):
+    for j in range(in_size):
+        initial_weights[i][j] = initial_weights[i][j] * eps_w
+
+initial_bias = torch.from_numpy(np.squeeze(np.load("bias_fc.npy"))).to(torch.float32)
+for i in range(out_size):
+    initial_bias[i] = initial_bias[i] * eps_w * eps_in
+
+indata = torch.from_numpy(np.squeeze(np.load("inputs_fc.npy"))).to(torch.float32)
+indata = torch.flatten(torch.transpose(torch.reshape(indata, (32,29)), 0, 1)) #torch.flatten(torch.reshape((32,29)).transpose(indata, 0, 1))
+for i in range(in_size):
+    indata[i] = indata[i] * eps_in
 indata.requires_grad = True
+
+
+#indata = torch.div(torch.ones(in_size), 100000)
+#indata.requires_grad = True
 print("\nInput data is: ", indata, indata.shape, indata.dtype)
 f.write('PI_L2 float INPUT_VECTOR[L0_IN_CH] = {'+dump.tensor_to_string(indata)+'};\n')
 
@@ -100,6 +121,7 @@ print("\nInitializing net parameters to {}.\nParameters are: ".format(initial_we
 
 
 net.lin.weight = nn.Parameter(initial_weights)
+net.lin.bias = nn.Parameter(initial_bias)
 for name, parameter in net.named_parameters():
     print(name, parameter, parameter.shape)
 
@@ -108,7 +130,7 @@ net.zero_grad()
 f.write('PI_L2 float L0_WEIGHTS_params[L0_WEIGHTS] = {'+dump.tensor_to_string(net.lin.weight)+'};\n')
 
 label = torch.zeros(1, out_size)
-label[0][1] = 1
+label[0][0] = 1
 #label = torch.ones(1, out_size)
 print("\nLabel is: ", label, label.shape, label.dtype)
 f.write('PI_L2 float LABEL[L0_OUT_CH] = {'+dump.tensor_to_string(label)+'};\n')
@@ -163,9 +185,12 @@ for i in range(num_epochs):
         print("\nNetwork gradients are: ")
         for name, parameter in net.named_parameters():
             print(name, parameter.grad, parameter.grad.shape, parameter.grad.dtype)
-        f.write('PI_L2 float L0_WEIGHT_GRAD_LAST [L0_WEIGHTS] = {'+dump.tensor_to_string(parameter.grad)+'};\n')
-        print("\nInput grad is: ", indata.grad)
-        f.write('PI_L2 float L0_IN_GRAD_LAST [L0_IN_CH] = {'+dump.tensor_to_string(indata.grad)+'};\n')
+            if name == 'lin.weight':
+                f.write('PI_L2 float L0_WEIGHT_GRAD_LAST [L0_WEIGHTS] = {'+dump.tensor_to_string(parameter.grad)+'};\n')
+            elif name == 'lin.bias': 
+                f.write('PI_L2 float L0_BIAS_GRAD_LAST [L0_OUT_CH] = {'+dump.tensor_to_string(parameter.grad)+'};\n')
+        #print("\nInput grad is: ", indata.grad)
+        #f.write('PI_L2 float L0_IN_GRAD_LAST [L0_IN_CH] = {'+dump.tensor_to_string(indata.grad)+'};\n')
 
         f.write('\n\n')
 
