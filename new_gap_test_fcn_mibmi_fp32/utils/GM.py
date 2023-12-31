@@ -36,7 +36,7 @@ parser.add_argument( '--out_size', type=int, default=2 )
 parser.add_argument( '--file_name', type=str, default='linear-data.h')
 parser.add_argument( '--step', type=str, default='FORWARD_BACKWARD_PROP')     # Possible steps: FORWARD, BACKWARD_GRAD, BACKWARD_ERROR
 parser.add_argument('--lr', type=float, default=0.5)
-parser.add_argument('--num_epochs', type=int, default=1)
+parser.add_argument('--num_epochs', type=int, default=5)
 args = parser.parse_args()
 
 # Network parametersin_size

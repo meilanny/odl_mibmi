@@ -255,9 +255,7 @@ static inline void train(){
   for (int i=0; i<Tout_l0; i++)       l0_bias_diff[i] = layer0_act_out.diff[i]; 
 
   #endif
-
 }
-
 
 
 // Most important function: it connects each passage to step the net and perform training
@@ -285,27 +283,37 @@ void net_step(void *args)
   #endif
 
   #ifdef MEMOCC_COMP
-  compute_memory_occupation();
+  if (init == 1)
+    compute_memory_occupation();
   printf("\nL1 memory occupation: %d bytes.", L1_memocc_bytes);
   printf("\nL2 memory occupation: %d bytes.\n", L2_memocc_bytes);
   #endif
 
   // Float32 inputs
-  float eps_in = 0.0039215689; // TODO: double check!
+  float eps_in = 0.0039215689; // TODO: double check! Also update eps per dataset!
 
   for (int i=0; i<Tin_l0; i++) {
     INPUT_VECTOR[i] = ((float)((uint8_t*)l2_buffer)[i]) * eps_in; //((float) *((uint8_t *l2_buffer)+i)) * eps_in;
   }
 
   // Float32 weights
-  float eps_w = 0.0010615624;
+  float eps_w = 0.0010615624; // TODO: double check! Also update eps per dataset!
 
-  for (int i=0; i<Tin_l0*Tout_l0; i++) {
-    L0_WEIGHTS_params[i] = ((float)((int8_t*)L2_FC_layer_weights_int8)[i]) * eps_w; //((float) *((uint8_t *l2_buffer)+i)) * eps_in;
-    // printf("%d     %f    \n", ((int8_t*)L2_FC_layer_weights_int8)[i], L0_WEIGHTS_params[i]);
+  if (init == 1) {
+    for (int i=0; i<Tin_l0*Tout_l0; i++) {
+      L0_WEIGHTS_params[i] = ((float)((int8_t*)L2_FC_layer_weights_int8)[i]) * eps_w;
+      // printf("%d     %f    \n", ((int8_t*)L2_FC_layer_weights_int8)[i], L0_WEIGHTS_params[i]);
+    }
+    printf("Initialized weights! \n");
+  } else {
+    for (int i=0; i<Tin_l0*Tout_l0; i++) {
+      //printf("%f    \n", ((float*)L2_FC_layer_weights_float)[i]);
+      L0_WEIGHTS_params[i] = ((float*)L2_FC_layer_weights_float)[i];
+    }
+    printf("Copied weights! \n");
   }
 
-  // TBD: bias?
+  // TBD: bias? DONE!
   float eps_b = eps_in * eps_w;
 
   int32_t *L2_FC_layer_bias = (int8_t*)L2_FC_layer_weights_int8 + Tin_l0*Tout_l0;
@@ -315,11 +323,14 @@ void net_step(void *args)
     //printf("Bias[%d]: %f    \n", i, L0_BIAS_params[i]);
   }
 
+  // TBD: LABEL?
+  for (int i=0; i<Tout_l0; i++){
+      LABEL[i] = 0.0f;
+  } 
+  LABEL[class] = 1.0f;
+
   //tensor_init();
-  if (init == 1) {
-    tensor_init_from_DORY();
-  }
-  //tensor_init_from_DORY();
+  tensor_init_from_DORY();
   connect_blobs();
   
   #ifdef FORWARD_BACKWARD_PROP
@@ -338,39 +349,48 @@ void net_step(void *args)
 
   // for (int i=0; i<Tout_l0; i++)       l0_final_out[i] = l0_out[i] + l0_bias[i]; 
 
-  #ifdef FORWARD_BACKWARD_PROP
-  printf("FORWARD CHECK: \n");
-  compare_tensors(l0_out, L0_OUT_FW_LAST, Tout_l0);
-  check_tensor(l0_out, L0_OUT_FW_LAST, Tout_l0);
+  if (init == 1) {
+    // TODO: Also implement checks for samples with idx > 0!
+    #ifdef FORWARD_BACKWARD_PROP
+    printf("FORWARD CHECK: \n");
+    compare_tensors(l0_out, L0_OUT_FW_LAST, Tout_l0);
+    check_tensor(l0_out, L0_OUT_FW_LAST, Tout_l0);
 
-  // //printf("OUT GRADIENT CHECK: \n");
-  // //compare_tensors(l0_out_diff, L0_OUT_GRAD, Tout_l0);
-  // //check_tensor(l0_out_diff, L0_OUT_GRAD, Tout_l0);
+    // //printf("OUT GRADIENT CHECK: \n");
+    // //compare_tensors(l0_out_diff, L0_OUT_GRAD, Tout_l0);
+    // //check_tensor(l0_out_diff, L0_OUT_GRAD, Tout_l0);
 
-  printf("WEIGHTS GRADIENT CHECK: \n"); 
-  compare_tensors(l0_ker_diff, L0_WEIGHT_GRAD_LAST, Tker_l0);
-  check_tensor(l0_ker_diff, L0_WEIGHT_GRAD_LAST, Tker_l0);
+    printf("WEIGHTS GRADIENT CHECK: \n"); 
+    compare_tensors(l0_ker_diff, L0_WEIGHT_GRAD_LAST, Tker_l0);
+    check_tensor(l0_ker_diff, L0_WEIGHT_GRAD_LAST, Tker_l0);
 
-  printf("BIAS GRADIENT CHECK: \n"); 
-  compare_tensors(l0_bias_diff, L0_BIAS_GRAD_LAST, Tout_l0);
-  check_tensor(l0_bias_diff, L0_BIAS_GRAD_LAST, Tout_l0);
+    printf("BIAS GRADIENT CHECK: \n"); 
+    compare_tensors(l0_bias_diff, L0_BIAS_GRAD_LAST, Tout_l0);
+    check_tensor(l0_bias_diff, L0_BIAS_GRAD_LAST, Tout_l0);
 
-  // //printf("INPUTS GRADIENT CHECK: \n"); 
-  // //compare_tensors(l0_in_diff, L0_IN_GRAD_LAST, Tin_l0);
-  // //check_tensor(l0_in_diff, L0_IN_GRAD_LAST, Tin_l0);
+    // //printf("INPUTS GRADIENT CHECK: \n"); 
+    // //compare_tensors(l0_in_diff, L0_IN_GRAD_LAST, Tin_l0);
+    // //check_tensor(l0_in_diff, L0_IN_GRAD_LAST, Tin_l0);
+
+  }
 
   printf("LOSS CHECK - Last epoch: \n"); 
   printf("Real loss is %f, GM loss is %f: \n", loss, L0_LOSS_LAST); 
+  //printf("Real loss is %f\n", loss); 
   #endif
 
-  if (init == 1) {
-    for (int i=0; i<Tin_l0*Tout_l0; i++)
-      *((float*)(L2_FC_layer_weights_float+i)) = *((float*)(layer0_wgt.data+i));
+  // if (init == 1) {
+  if (update == 1) {
+    for (int i=0; i<Tin_l0*Tout_l0; i++){
+      //*((float*)(L2_FC_layer_weights_float+i)) = *((float*)(layer0_wgt.data+i));
+      //printf("%f    \n", layer0_wgt.data[i]);
+      ((float*)L2_FC_layer_weights_float)[i] = layer0_wgt.data[i];
+      //printf("%f    \n", ((float*)L2_FC_layer_weights_float)[i]);
+    }
+    printf("Weights updated and stored in L2_FC_layer_weights_float!\n");
   }
 
   *ce_loss = loss;
-
-  printf("Weights updated and stored in L2_FC_layer_weights_float!\n");
 
   return;
 }

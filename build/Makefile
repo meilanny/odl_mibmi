@@ -506,485 +506,485 @@ bsp/fast:
 	$(MAKE) $(MAKESILENT) -f freertos/pmsis/bsp/CMakeFiles/bsp.dir/build.make freertos/pmsis/bsp/CMakeFiles/bsp.dir/build
 .PHONY : bsp/fast
 
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.i: 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.s: 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.i: 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.s: 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.i: 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.s: 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.i: 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.s: 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.i: 1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.s: 1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.i: 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.s: 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.i: 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.s: 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.i: 1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.s: 1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/mem.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/mem.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/mem.i: 1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/mem.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/mem.s: 1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/mem.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.i: 1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.s: 1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/network.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/network.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/network.i: 1218_D2_15_mixedSW_final_MIBMINet/src/network.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/network.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/network.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/network.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/network.s: 1218_D2_15_mixedSW_final_MIBMINet/src/network.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/network.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/network.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/network.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.i: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.s: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.i: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.s: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.i: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.s: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.i: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.s: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.i: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.s: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.i: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.s: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.i: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.s: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.i: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.s: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.s
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.obj: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.obj: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.obj
 
 # target to build an object file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.i: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.i: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.i
 
 # target to preprocess a source file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.i
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.i
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.i
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.i
 
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.s: 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.s: 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.s
 
 # target to generate assembly for a file
-1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.s
-.PHONY : 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.s
+1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.s
+.PHONY : 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.s
 
 home/lanmei/pulp-trainlib/lib/sources/pulp_act_fp16.obj: home/lanmei/pulp-trainlib/lib/sources/pulp_act_fp16.c.obj
 .PHONY : home/lanmei/pulp-trainlib/lib/sources/pulp_act_fp16.obj
@@ -1648,66 +1648,66 @@ help:
 	@echo "... pmsis_implem"
 	@echo "... pmsis_rtos"
 	@echo "... ri5cy-gap9"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/mem.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/mem.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/mem.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/network.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/network.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/network.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.s"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.obj"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.i"
-	@echo "... 1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.s"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.obj"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.i"
+	@echo "... 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.s"
 	@echo "... home/lanmei/pulp-trainlib/lib/sources/pulp_act_fp16.obj"
 	@echo "... home/lanmei/pulp-trainlib/lib/sources/pulp_act_fp16.i"
 	@echo "... home/lanmei/pulp-trainlib/lib/sources/pulp_act_fp16.s"

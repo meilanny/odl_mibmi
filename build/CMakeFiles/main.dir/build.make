@@ -83,285 +83,285 @@ CMakeFiles/main.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
 	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/main.c -o CMakeFiles/main.dir/main.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/mem.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/network.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/network.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/network.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/network.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.s
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj: ../1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj -MF CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj.d -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj: ../1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj -MF CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj.d -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj -c /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.i"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c > CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.i
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.i"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c > CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.i
 
-CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.s"
-	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c -o CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.s
+CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.s"
+	/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c -o CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.s
 
 CMakeFiles/main.dir/new_gap_test_fcn_mibmi_fp32/net.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/new_gap_test_fcn_mibmi_fp32/net.c.obj: ../new_gap_test_fcn_mibmi_fp32/net.c
@@ -716,26 +716,26 @@ CMakeFiles/main.dir/home/lanmei/pulp-trainlib/lib/sources/pulp_train_utils_fp32.
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj" \
-"CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj" \
+"CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj" \
 "CMakeFiles/main.dir/new_gap_test_fcn_mibmi_fp32/net.c.obj" \
 "CMakeFiles/main.dir/home/lanmei/pulp-trainlib/lib/sources/pulp_act_fp16.c.obj" \
 "CMakeFiles/main.dir/home/lanmei/pulp-trainlib/lib/sources/pulp_act_fp32.c.obj" \
@@ -766,26 +766,26 @@ main_OBJECTS = \
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution0.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution1.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution3.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/BNReluConvolution4.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/dory_dma.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/FullyConnected6.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/mem.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/net_utils.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/network.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling2.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/Pooling5.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_avgpool_u8_u8.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_i8_i8.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_conv_i8_u8_i8.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_i8_u8_i8.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_depthwise_u8_i8_i8.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_linear_u8_i32_i8.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_i8_i8.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_i8_u8_i8.c.obj
-main: CMakeFiles/main.dir/1218_D2_15_mixedSW_final_MIBMINet/src/pulp_nn_matmul_u8_i8_i8.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution0.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution1.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution3.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/BNReluConvolution4.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/dory_dma.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/FullyConnected6.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/mem.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/net_utils.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/network.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling2.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/Pooling5.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_avgpool_u8_u8.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_i8_i8.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_conv_i8_u8_i8.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_i8_u8_i8.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_depthwise_u8_i8_i8.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_linear_u8_i32_i8.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_i8_i8.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_i8_u8_i8.c.obj
+main: CMakeFiles/main.dir/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/src/pulp_nn_matmul_u8_i8_i8.c.obj
 main: CMakeFiles/main.dir/new_gap_test_fcn_mibmi_fp32/net.c.obj
 main: CMakeFiles/main.dir/home/lanmei/pulp-trainlib/lib/sources/pulp_act_fp16.c.obj
 main: CMakeFiles/main.dir/home/lanmei/pulp-trainlib/lib/sources/pulp_act_fp32.c.obj
