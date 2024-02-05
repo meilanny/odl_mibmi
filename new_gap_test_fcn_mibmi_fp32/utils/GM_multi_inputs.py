@@ -125,7 +125,9 @@ optimizer = optim.SGD(net.parameters(), lr=lr, momentum=0)
 num_train_inputs = 100
 net.train()
 
-for i in range(num_epochs):
+num_epochs = 1
+
+for i_epochs in range(num_epochs):
 
     for input_idx in range(num_train_inputs):
         print("\nCur training input idx is: ", input_idx)
@@ -177,7 +179,7 @@ for i in range(num_epochs):
         # f.write('PI_L2 float L0_OUT_GRAD [L0_OUT_CH] = {'+dump.tensor_to_string(output_diff)+'};\n')
         
         loss.backward()
-        output_diff = -label + output
+        #output_diff = -label + output
         optimizer.step()
         # ("\nNetwork gradients are: ")
         # for name, parameter in net.named_parameters():
@@ -188,8 +190,10 @@ for i in range(num_epochs):
         # f.write('PI_L2 float L0_IN_GRAD [L0_IN_CH] = {'+dump.tensor_to_string(indata.grad)+'};\n')
 
         # f.write('\n\n')
+
+        #print("\nLoss is: ", loss, loss.shape, loss.dtype)
         
-        if i == num_epochs - 1:
+        if i_epochs == num_epochs - 1:
         
             print("\nNet output is: ", output, output.shape, output.dtype)
             if input_idx == 0:
@@ -213,6 +217,8 @@ for i in range(num_epochs):
 
             if input_idx == 0:
                 f.write('\n\n')
+
+            print("\nLoss is: ", loss, loss.shape, loss.dtype)
 
 #print(sample_labels)
 f.close()

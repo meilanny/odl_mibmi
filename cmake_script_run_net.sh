@@ -8,13 +8,14 @@ export CC=/usr/bin/gcc #-11
 export CXX=/usr/bin/g++ #-11
 export GAP_RISCV_GCC_TOOLCHAIN=$MYHOME/gap_riscv_toolchain
 
-# export GAP_SDK_HOME=/home/lanmei/gap_sdk_dir/gap_sdk_private
+#export GAP_SDK_HOME=/home/lanmei/gap_sdk_dir/gap_sdk_private
 
 export GAP_SDK_HOME=/home/lanmei/gap_sdk_private
 
 #export KCONFIG_CONFIG="sdk.config"
 
 #cd $MYHOME/gap_sdk_private
+#source $GAP_SDK_HOME/configs/gap9_evk_audio.sh
 source $GAP_SDK_HOME/configs/gap9_evk_audio.sh
 
 #source $GAP_SDK_HOME/sourceme.sh

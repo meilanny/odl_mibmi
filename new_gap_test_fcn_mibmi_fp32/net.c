@@ -15,6 +15,7 @@
  */
 
 // TODO: find a way to reshape and compare the two weight vectors! Maybe export the array stored in L2 in DORY? Modify golden model.
+// TODO: 1231: SOME PROBLEM WITH THE BIAS?
 
 #define MEMOCC_COMP
 
@@ -38,7 +39,7 @@ PI_L2 struct blob layer0_in, layer0_wgt, layer0_out, layer0_act_out, layer0_bias
 PI_L2 int L1_memocc_bytes = 0;
 PI_L2 int L2_memocc_bytes = 0;
 
-PI_L2 float zero_init = 0.0f; //PI_L1
+PI_L1 float zero_init = 0.0f; //PI_L1
 
 
 #ifdef FORWARD_BACKWARD_PROP
@@ -236,7 +237,9 @@ static inline void train(){
   loss_args.output = &layer0_act_out;
   loss_args.target = LABEL;
   loss_args.wr_loss = &loss;
-  // NOTE: Davide modified outDiff[i] = (-target[i]+outData[i]) to outDiff[i] = (-target[i] / outData[i]) in a new commit
+  // NOTE: Davide modified outDiff[i] = (-target[i]+outData[i]) to outDiff[i] = (-target[i] / outData[i]) in a new commit, but this implementation corresponds to the old commit.
+  // Old commit: diff calculated including softmax, yet forward prop. not including softmax; New commit: both diff and forward prop calculated not including softmax. 
+  // Current PULP-TrainLib version softmax does not include diff calculation, so stick with the old for now.
   pulp_CrossEntropyLoss(&loss_args);
   //layer0_out.diff = layer0_act_out.diff;
   for (int i=0; i<Tout_l0; i++)       l0_out_diff[i] = layer0_act_out.diff[i]; 
@@ -270,6 +273,8 @@ void net_step(void *args)
   int init = (int) real_args[4];
   int class = (int) real_args[5];
   float * ce_loss = (float *) real_args[6];
+  int * predict_label = (int *) real_args[7];
+  void * L2_FC_layer_biases_float = (void *) real_args[8];
 
   #ifdef PROF_NET
   INIT_STATS();
@@ -318,9 +323,25 @@ void net_step(void *args)
 
   int32_t *L2_FC_layer_bias = (int8_t*)L2_FC_layer_weights_int8 + Tin_l0*Tout_l0;
 
+  /*
   for (int i=0; i<Tout_l0; i++) {
     L0_BIAS_params[i] = ((float) L2_FC_layer_bias[i]) * eps_b; //((float)((int32_t*)((int8_t*)L2_FC_layer_weights_int8+Tin_l0*Tout_l0))[i]) * eps_b; //((float) *((uint8_t *l2_buffer)+i)) * eps_in;
     //printf("Bias[%d]: %f    \n", i, L0_BIAS_params[i]);
+  } 
+  */
+
+  if (init == 1) {
+    for (int i=0; i<Tout_l0; i++) {
+      L0_BIAS_params[i] = ((float) L2_FC_layer_bias[i]) * eps_b; //((float)((int32_t*)((int8_t*)L2_FC_layer_weights_int8+Tin_l0*Tout_l0))[i]) * eps_b; //((float) *((uint8_t *l2_buffer)+i)) * eps_in;
+      //printf("Bias[%d]: %f    \n", i, L0_BIAS_params[i]);
+    }
+    printf("Initialized biases! \n");
+  } else {
+    for (int i=0; i<Tin_l0*Tout_l0; i++) {
+      //printf("%f    \n", ((float*)L2_FC_layer_biases_float)[i]);
+      L0_BIAS_params[i] = ((float*)L2_FC_layer_biases_float)[i];
+    }
+    printf("Copied biases! \n");
   }
 
   // TBD: LABEL?
@@ -336,9 +357,9 @@ void net_step(void *args)
   #ifdef FORWARD_BACKWARD_PROP
 
   for (int epoch=0; epoch < NUM_EPOCHS; epoch++){
-      train();
-      if (update == 1)
-        update_weights_and_bias();
+    train();
+    if (update == 1)
+      update_weights_and_bias();
   }
   
   #endif
@@ -371,13 +392,17 @@ void net_step(void *args)
     // //printf("INPUTS GRADIENT CHECK: \n"); 
     // //compare_tensors(l0_in_diff, L0_IN_GRAD_LAST, Tin_l0);
     // //check_tensor(l0_in_diff, L0_IN_GRAD_LAST, Tin_l0);
+    #endif
 
+  } else {
+    printf("FORWARD CHECK: \n");
+    compare_tensors(l0_out, L0_OUT_FW_LAST, Tout_l0);
+    check_tensor(l0_out, L0_OUT_FW_LAST, Tout_l0);
   }
 
   printf("LOSS CHECK - Last epoch: \n"); 
   printf("Real loss is %f, GM loss is %f: \n", loss, L0_LOSS_LAST); 
   //printf("Real loss is %f\n", loss); 
-  #endif
 
   // if (init == 1) {
   if (update == 1) {
@@ -387,8 +412,24 @@ void net_step(void *args)
       ((float*)L2_FC_layer_weights_float)[i] = layer0_wgt.data[i];
       //printf("%f    \n", ((float*)L2_FC_layer_weights_float)[i]);
     }
+    // Forget to store bias!
+    for (int i=0; i<Tout_l0; i++) {
+      ((float*)L2_FC_layer_biases_float)[i] = layer0_bias.data[i];
+    }
     printf("Weights updated and stored in L2_FC_layer_weights_float!\n");
   }
+
+  float max_val = -1E-37;
+  int max_idx = -1;
+  for (int i=0; i<Tout_l0; i++) {
+    if (l0_out[i] > max_val) {
+      max_val = l0_out[i];
+      max_idx = i;
+    }
+  }
+
+  *predict_label = max_idx;
+  //printf("\n Current prediction: %d \n", *predict_label);
 
   *ce_loss = loss;
 
