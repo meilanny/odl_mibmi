@@ -63,6 +63,7 @@
     printf("[%d] ld stall = %lu\n", id, _ldstall); \
     printf("[%d] imiss = %lu\n", id, _imiss); 
 
+
 #else // STATS
 
 #define INIT_STATS()

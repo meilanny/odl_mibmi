@@ -47,6 +47,8 @@ void application(void * arg) {
   void *L2_FC_layer_weights_int8 = pi_l2_malloc(weights_size[6]);
   void *L2_FC_layer_weights_float;
   void *L2_FC_layer_biases_float;
+  void *L2_FC_layer_weights_float_old_model;
+  void *L2_FC_layer_biases_float_old_model;
 
   static float ce_loss;
   int predict_label;
@@ -66,9 +68,9 @@ void application(void * arg) {
 
   // training
   printf("\n-------------------------Training Phase-------------------------\n");
-  int num_epochs = 100;
-  int num_train_samples = 1;
-  int num_val_samples = 1;
+  int num_epochs = 1;
+  int num_train_samples = 5;
+  int num_val_samples = 0;
 
   void *ram_input = ram_malloc(input_size);
 
@@ -80,6 +82,16 @@ void application(void * arg) {
   L2_FC_layer_biases_float = pi_l2_malloc(2 * 4); // 4 bytes per float
   if (L2_FC_layer_biases_float == NULL) {
       printf("failed to allocate memory for L2_FC_layer_biases_float\n");
+  }
+
+  L2_FC_layer_weights_float_old_model = pi_l2_malloc(2 * 928 * 4); // 4 bytes per float
+  if (L2_FC_layer_weights_float_old_model == NULL) {
+      printf("failed to allocate memory for L2_FC_layer_weights_float_old_model\n");
+  }
+
+  L2_FC_layer_biases_float_old_model = pi_l2_malloc(2 * 4); // 4 bytes per float
+  if (L2_FC_layer_biases_float_old_model == NULL) {
+      printf("failed to allocate memory for L2_FC_layer_biases_float_old_model\n");
   }
 
   // TBD: implement NUM_EPOCHS here!
@@ -120,14 +132,16 @@ void application(void * arg) {
       args_init[1] = (unsigned int) L2_FC_layer_weights_int8;
       args_init[2] = (unsigned int) L2_FC_layer_weights_float;
       args_init[3] = (unsigned int) 1; // update = 0: no update (validate), 1: update (train).
-      if (i == 0)
+      if (i == 0 && idx_epochs == 0)
         args_init[4] = (unsigned int) 1; // init = 1
       else
         args_init[4] = (unsigned int) 0; // init = 0
-      args_init[5] = (unsigned int) SAMPLE_LABELS[i]; // dummy class
+      args_init[5] = (unsigned int) SAMPLE_LABELS[i]; // sample labels
       args_init[6] = (float*) &ce_loss;
       args_init[7] = (int*) &predict_label;
       args_init[8] = (unsigned int) L2_FC_layer_biases_float;
+      args_init[9] = (unsigned int) L2_FC_layer_weights_float_old_model;
+      args_init[10] = (unsigned int) L2_FC_layer_biases_float_old_model;
 
       //printf("\nLaunching training procedure...\n");
       pi_cluster_send_task_to_cl(&cluster_dev, pi_cluster_task(&cl_task, net_step, args_init));
@@ -194,6 +208,8 @@ void application(void * arg) {
     args_init[6] = (float*) &ce_loss;
     args_init[7] = (int*) &predict_label;
     args_init[8] = (unsigned int) L2_FC_layer_biases_float;
+    args_init[9] = (unsigned int) L2_FC_layer_weights_float_old_model;
+    args_init[10] = (unsigned int) L2_FC_layer_biases_float_old_model;
 
     //printf("\nLaunching training procedure...\n");
     pi_cluster_send_task_to_cl(&cluster_dev, pi_cluster_task(&cl_task, net_step, args_init));
@@ -223,6 +239,10 @@ void application(void * arg) {
   pi_l2_free(L2_FC_layer_weights_float, 2 * 928 * 4);
 
   pi_l2_free(L2_FC_layer_biases_float, 2 * 4);
+
+  pi_l2_free(L2_FC_layer_weights_float_old_model, 2 * 928 * 4);
+
+  pi_l2_free(L2_FC_layer_biases_float_old_model, 2 * 4);
 
   pi_l2_free(L2_FC_layer_weights_int8, weights_size[6]);
 

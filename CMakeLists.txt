@@ -164,6 +164,9 @@ list(APPEND TARGET_PREPROCESSOR
                                 -DOPTIMIZE
                                 -DMATMUL_TYPE=${MATMUL_TYPE}
                                 
+                                -DSTATS
+                                -DPROF_NET
+                                
 )
 
 list(APPEND READFS_FILES 

@@ -28,13 +28,17 @@
 
 // DATA DEFINITION
 
-
+PI_L2 float L0_WEIGHTS_params_old[Tin_l0*Tout_l0];
 PI_L2 float L0_BIAS_params[Tout_l0];
+PI_L2 float L0_BIAS_params_old[Tout_l0];
 
 // LINEAR
 PI_L2 struct Linear_args FC_args; //PI_L1
+PI_L2 struct Linear_args FC_args_old; //PI_L1
 PI_L2 struct act_args act_args; //PI_L1
 PI_L2 struct blob layer0_in, layer0_wgt, layer0_out, layer0_act_out, layer0_bias; //PI_L1
+PI_L2 struct blob layer0_out_old, layer0_wgt_old, layer0_bias_old, layer0_out_div_T, layer0_act_out_old, layer0_act_out_div_T; //PI_L1
+PI_L2 struct act_args act_args_old, act_args_div_T; //PI_L1
 // Memory occupation counter
 PI_L2 int L1_memocc_bytes = 0;
 PI_L2 int L2_memocc_bytes = 0;
@@ -46,20 +50,32 @@ PI_L1 float zero_init = 0.0f; //PI_L1
 PI_L2 float l0_in[Tin_l0]; //PI_L1
 PI_L2 float l0_ker[Tker_l0]; //PI_L1
 PI_L2 float l0_out[Tout_l0]; //PI_L1
+
 PI_L2 float l0_in_diff [Tin_l0]; //PI_L1
 PI_L2 float l0_ker_diff[Tker_l0]; //PI_L1
-PI_L2 float l0_out_diff [Tout_l0]; //PI_L1
+PI_L2 float l0_out_diff[Tout_l0]; //PI_L1
+
 PI_L2 float l0_act_out[Tout_l0]; //PI_L1
-PI_L2 float l0_act_out_diff [Tout_l0]; //PI_L1
+PI_L2 float l0_act_out_diff[Tout_l0]; //PI_L1
 
 PI_L2 float l0_bias[Tout_l0]; //PI_L1
 PI_L2 float l0_bias_diff[Tout_l0]; //PI_L1
 
 PI_L2 float l0_final_out[Tout_l0]; //PI_L1
 
+PI_L2 float l0_ker_old[Tker_l0]; //PI_L1
+PI_L2 float l0_bias_old[Tout_l0]; //PI_L1
+PI_L2 float l0_out_old[Tout_l0]; //PI_L1
+PI_L2 float l0_act_out_old[Tout_l0]; //PI_L1
+PI_L2 float l0_out_div_T[Tout_l0]; //PI_L1
+PI_L2 float l0_act_out_div_T[Tout_l0]; //PI_L1
 
 PI_L2 float loss = 0; //PI_L1
-PI_L2 struct loss_args loss_args; //PI_L1
+// PI_L2 struct loss_args loss_args; //PI_L1
+PI_L2 struct loss_args_LwF loss_args; //PI_L1
+
+PI_L2 int T_distill = 2;
+
 #endif
 
 #ifdef FORWARD_BACKWARD_PROP
@@ -93,6 +109,13 @@ static inline void tensor_init_from_DORY()
 
   for (int i=0; i<Tout_l0; i++)       l0_bias[i] = L0_BIAS_params[i];
   for (int i=0; i<Tout_l0; i++)       l0_bias_diff[i] = zero_init;  
+
+  for (int i=0; i<Tker_l0; i++)       l0_ker_old[i] = L0_WEIGHTS_params_old[i];
+  for (int i=0; i<Tout_l0; i++)       l0_bias_old[i] = L0_BIAS_params_old[i];
+  for (int i=0; i<Tout_l0; i++)       l0_out_old[i] = zero_init; 
+  for (int i=0; i<Tout_l0; i++)       l0_out_div_T[i] = zero_init; 
+  for (int i=0; i<Tout_l0; i++)       l0_act_out_old[i] = zero_init;
+  for (int i=0; i<Tout_l0; i++)       l0_act_out_div_T[i] = zero_init;
   
 }
 
@@ -106,17 +129,41 @@ static inline void connect_blobs()
   layer0_wgt.dim = Tker_l0;
   layer0_wgt.diff = l0_ker_diff;
 
+  layer0_wgt_old.data = l0_ker_old;
+  layer0_wgt_old.dim = Tker_l0;
+  layer0_wgt_old.diff = l0_ker_diff; // Cannot be used, just a placeholder!
+
   layer0_bias.data = l0_bias;
   layer0_bias.dim = Tout_l0;
   layer0_bias.diff = l0_bias_diff;
+
+  layer0_bias_old.data = l0_bias_old;
+  layer0_bias_old.dim = Tout_l0;
+  layer0_bias_old.diff = l0_bias_diff; // Cannot be used, just a placeholder!
   
   layer0_out.data = l0_out;
   layer0_out.dim = Tout_l0;
   layer0_out.diff = l0_out_diff;
+
+  layer0_out_old.data = l0_out_old;
+  layer0_out_old.dim = Tout_l0;
+  layer0_out_old.diff = l0_out_diff; // Cannot be used, just a placeholder!
+
+  layer0_out_div_T.data = l0_out_div_T;
+  layer0_out_div_T.dim = Tout_l0;
+  layer0_out_div_T.diff = l0_out_diff; // Cannot be used, just a placeholder!
   
   layer0_act_out.data = l0_act_out;
   layer0_act_out.dim = Tout_l0;
   layer0_act_out.diff = l0_act_out_diff;
+
+  layer0_act_out_old.data = l0_act_out_old;
+  layer0_act_out_old.dim = Tout_l0;
+  layer0_act_out_old.diff = l0_act_out_diff; // Cannot be used, just a placeholder!
+
+  layer0_act_out_div_T.data = l0_act_out_div_T;
+  layer0_act_out_div_T.dim = Tout_l0;
+  layer0_act_out_div_T.diff = l0_act_out_diff; // Cannot be used, just a placeholder!
 
   FC_args.input = &layer0_in;
   FC_args.coeff = &layer0_wgt;
@@ -125,12 +172,26 @@ static inline void connect_blobs()
   FC_args.opt_matmul_type_fw = MATMUL_TYPE;
   FC_args.opt_matmul_type_wg = MATMUL_TYPE;
   FC_args.opt_matmul_type_ig = MATMUL_TYPE;
+
+  FC_args_old.input = &layer0_in;
+  FC_args_old.coeff = &layer0_wgt_old;
+  FC_args_old.output = &layer0_out_old;
+  FC_args_old.skip_in_grad = 0;
+  FC_args_old.opt_matmul_type_fw = MATMUL_TYPE;
+  FC_args_old.opt_matmul_type_wg = MATMUL_TYPE;
+  FC_args_old.opt_matmul_type_ig = MATMUL_TYPE;
   
   act_args.input = &layer0_out;
   act_args.output = &layer0_act_out;
+
+  act_args_div_T.input = &layer0_out_div_T;
+  act_args_div_T.output = &layer0_act_out_div_T;
+
+  act_args_old.input = &layer0_out_old;
+  act_args_old.output = &layer0_act_out_old;
 }
 
-static inline void compute_memory_occupation(){
+static inline void compute_memory_occupation(){ // TBD
   // Input
   L1_memocc_bytes += Tin_l0*sizeof(float);
   // Kernel
@@ -157,6 +218,19 @@ static inline void compute_memory_occupation(){
   L2_memocc_bytes += L0_WEIGHTS*sizeof(float);
   // Input gradient
   L2_memocc_bytes += L0_IN_CH*sizeof(float);
+  // Bias
+  L2_memocc_bytes += L0_OUT_CH*sizeof(float);
+  // Bias gradient
+  L2_memocc_bytes += L0_OUT_CH*sizeof(float);
+  // Intermediate loss calculation
+  L2_memocc_bytes += L0_OUT_CH*sizeof(float);
+  // Intermediate loss calculation
+  L2_memocc_bytes += L0_OUT_CH*sizeof(float);
+
+  // Old Weights
+  // L2_memocc_bytes += L0_WEIGHTS*sizeof(float);
+  // Old Biases
+  // L2_memocc_bytes += L0_OUT_CH*sizeof(float);
 }
 
 static inline void update_weights_and_bias()
@@ -229,20 +303,25 @@ static inline void train(){
 
   #ifdef FORWARD_BACKWARD_PROP
   pulp_linear_fp32_fw_cl(&FC_args);
-
   for (int i=0; i<Tout_l0; i++)       l0_out[i] = l0_out[i] + l0_bias[i]; 
-
   pulp_softmax_fp32_fw_cl(&act_args);
-  
-  loss_args.output = &layer0_act_out;
+  for (int i=0; i<Tout_l0; i++)       l0_out_div_T[i] = l0_out[i]/(float)T_distill; 
+  pulp_softmax_fp32_fw_cl(&act_args_div_T);
+
+  pulp_linear_fp32_fw_cl(&FC_args_old);
+  for (int i=0; i<Tout_l0; i++)       l0_out_old[i] = (l0_out_old[i] + l0_bias_old[i])/(float)T_distill; 
+  pulp_softmax_fp32_fw_cl(&act_args_old);
+
+  loss_args.output = &layer0_act_out; // After softmax;
+  loss_args.output_div_T = &layer0_act_out_div_T; // After softmax.
+  loss_args.output_old = &layer0_act_out_old; // After softmax.
   loss_args.target = LABEL;
   loss_args.wr_loss = &loss;
-  // NOTE: Davide modified outDiff[i] = (-target[i]+outData[i]) to outDiff[i] = (-target[i] / outData[i]) in a new commit, but this implementation corresponds to the old commit.
-  // Old commit: diff calculated including softmax, yet forward prop. not including softmax; New commit: both diff and forward prop calculated not including softmax. 
-  // Current PULP-TrainLib version softmax does not include diff calculation, so stick with the old for now.
-  pulp_CrossEntropyLoss(&loss_args);
+  loss_args.T_distill = &T_distill;
+  // NOTE: Davide modified outDiff[i] = (-target[i]+outData[i]) to outDiff[i] = (-target[i] / outData[i]) in a new commit
+  pulp_LwF_Loss(&loss_args);
   //layer0_out.diff = layer0_act_out.diff;
-  for (int i=0; i<Tout_l0; i++)       l0_out_diff[i] = layer0_act_out.diff[i]; 
+  for (int i=0; i<Tout_l0; i++)       l0_out_diff[i] = layer0_act_out.diff[i];
 
   //for (int i=0; i<Tin_l0; i++) {
   //  printf("INPUT: %f    \n", FC_args.input->data[i]); //((float) *((uint8_t *l2_buffer)+i)) * eps_in;
@@ -275,6 +354,8 @@ void net_step(void *args)
   float * ce_loss = (float *) real_args[6];
   int * predict_label = (int *) real_args[7];
   void * L2_FC_layer_biases_float = (void *) real_args[8];
+  void * L2_FC_layer_weights_float_old_model = (void *) real_args[9];
+  void * L2_FC_layer_biases_float_old_model = (void *) real_args[10];
 
   #ifdef PROF_NET
   INIT_STATS();
@@ -310,12 +391,25 @@ void net_step(void *args)
       // printf("%d     %f    \n", ((int8_t*)L2_FC_layer_weights_int8)[i], L0_WEIGHTS_params[i]);
     }
     printf("Initialized weights! \n");
+    for (int i=0; i<Tin_l0*Tout_l0; i++){
+      //*((float*)(L2_FC_layer_weights_float+i)) = *((float*)(layer0_wgt.data+i));
+      //printf("%f    \n", layer0_wgt.data[i]);
+      ((float*)L2_FC_layer_weights_float_old_model)[i] = L0_WEIGHTS_params[i];
+      L0_WEIGHTS_params_old[i] = L0_WEIGHTS_params[i];
+      //printf("%f    \n", ((float*)L2_FC_layer_weights_float)[i]);
+    }
+    printf("Weights stored in L2_FC_layer_weights_float_old_model as old layer weights for LwF!\n");
   } else {
     for (int i=0; i<Tin_l0*Tout_l0; i++) {
       //printf("%f    \n", ((float*)L2_FC_layer_weights_float)[i]);
       L0_WEIGHTS_params[i] = ((float*)L2_FC_layer_weights_float)[i];
     }
     printf("Copied weights! \n");
+    for (int i=0; i<Tin_l0*Tout_l0; i++) {
+      //printf("%f    \n", ((float*)L2_FC_layer_weights_float)[i]);
+      L0_WEIGHTS_params_old[i] = ((float*)L2_FC_layer_weights_float_old_model)[i];
+    }
+    printf("Copied old weights! \n");
   }
 
   // TBD: bias? DONE!
@@ -336,12 +430,25 @@ void net_step(void *args)
       //printf("Bias[%d]: %f    \n", i, L0_BIAS_params[i]);
     }
     printf("Initialized biases! \n");
-  } else {
-    for (int i=0; i<Tin_l0*Tout_l0; i++) {
-      //printf("%f    \n", ((float*)L2_FC_layer_biases_float)[i]);
+    for (int i=0; i<Tout_l0; i++) {
+      ((float*)L2_FC_layer_biases_float_old_model)[i] = L0_BIAS_params[i];
+      L0_BIAS_params_old[i] = L0_BIAS_params[i];
+    }
+    printf("Biases stored in L2_FC_layer_biases_float_old_model as old layer weights for LwF!\n");
+
+  } 
+
+  else {
+    for (int i=0; i<Tout_l0; i++) {
+      printf("%f    \n", ((float*)L2_FC_layer_biases_float)[i]);
       L0_BIAS_params[i] = ((float*)L2_FC_layer_biases_float)[i];
     }
     printf("Copied biases! \n");
+    for (int i=0; i<Tout_l0; i++) {
+      //printf("%f    \n", ((float*)L2_FC_layer_biases_float)[i]);
+      L0_BIAS_params_old[i] = ((float*)L2_FC_layer_biases_float_old_model)[i];
+    }
+    printf("Copied old biases! \n");
   }
 
   // TBD: LABEL?
