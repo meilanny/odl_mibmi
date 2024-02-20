@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/main.c.obj: /home/lanmei/merge_net_MIBMI_new/main.c \
- /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/inc/mem.h \
+ /home/lanmei/merge_net_MIBMI_new/1229_D2_15_mixedSW_final_MIBMINet_100trials_reduced_L1_alloc_80000/inc/mem.h \
  /home/lanmei/gap_riscv_toolchain/lib/gcc/riscv32-unknown-elf/7.1.1/include/stddef.h \
- /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/inc/network.h \
+ /home/lanmei/merge_net_MIBMI_new/1229_D2_15_mixedSW_final_MIBMINet_100trials_reduced_L1_alloc_80000/inc/network.h \
  /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/pmsis/include/pmsis.h \
  /home/lanmei/gap_riscv_toolchain/riscv32-unknown-elf/sys-include/inttypes.h \
  /home/lanmei/gap_riscv_toolchain/riscv32-unknown-elf/sys-include/newlib.h \
@@ -572,6 +572,6 @@ CMakeFiles/main.dir/main.c.obj: /home/lanmei/merge_net_MIBMI_new/main.c \
  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h \
- /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/inc/net_utils.h \
+ /home/lanmei/merge_net_MIBMI_new/1229_D2_15_mixedSW_final_MIBMINet_100trials_reduced_L1_alloc_80000/inc/net_utils.h \
  /home/lanmei/merge_net_MIBMI_new//new_gap_test_fcn_mibmi_fp32/net.h \
  /home/lanmei/merge_net_MIBMI_new//new_gap_test_fcn_mibmi_fp32/step-check.h

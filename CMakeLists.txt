@@ -21,13 +21,13 @@ set (RAM_TYPE   DEFAULT)
 
 #set (EXEC_FROM_FLASH true)
 
-set (NUM_CORES 1)
+set (NUM_CORES 8)
 
 #set (VERBOSE 1)
 
 #set(GAP_SDK_DIR        /home/lanmei/gap_sdk_dir/gap_sdk_private/)
 # mibmi_exp22_config_MIBMINet_all_unsigned
-set(DORY_NET_DIR        /home/lanmei/merge_net_MIBMI_new/1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test/)
+set(DORY_NET_DIR        /home/lanmei/merge_net_MIBMI_new/1229_D2_15_mixedSW_final_MIBMINet_100trials_reduced_L1_alloc_80000/) # 1229_D2_15_modify_mixedSW_final_MIBMINet_100trials_test  1229_D2_15_mixedSW_final_MIBMINet_100trials_reduced_L1_alloc
 set(CURDIR              /home/lanmei/merge_net_MIBMI_new/)
 set(BUILD_DIR           ${CURDIR}/build)
 
@@ -158,7 +158,7 @@ list(APPEND TARGET_PREPROCESSOR
                                 
                                 -DFS_READ_FS
                                 #-DCONFIG_FLASH_LAYOUT_CUSTOM
-                                #-DVERBOSE
+                                -DVERBOSE
                                 -DSINGLE_CORE_DMA
                                 
                                 -DOPTIMIZE

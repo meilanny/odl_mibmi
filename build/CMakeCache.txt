@@ -230,6 +230,9 @@ GAP_RISCV_SIZE:FILEPATH=/home/lanmei/gap_riscv_toolchain/bin/riscv32-unknown-elf
 //Path to a program.
 NNTOOL:FILEPATH=/home/lanmei/gap_sdk_private/tools/nntool/scripts/nntool
 
+//Path to a program.
+SFU:FILEPATH=/home/lanmei/gap_sdk_dir/gap_sdk_private/install/workstation/bin/SFU
+
 //Value Computed by CMake
 freertos_BINARY_DIR:STATIC=/home/lanmei/merge_net_MIBMI_new/build/freertos
 
@@ -247,6 +250,15 @@ main_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 main_SOURCE_DIR:STATIC=/home/lanmei/merge_net_MIBMI_new
+
+//Value Computed by CMake
+pmsis_implem_gap9_BINARY_DIR:STATIC=/home/lanmei/merge_net_MIBMI_new/build/freertos/vendors/gwt/gap9/pmsis
+
+//Value Computed by CMake
+pmsis_implem_gap9_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+pmsis_implem_gap9_SOURCE_DIR:STATIC=/home/lanmei/gap_sdk_dir/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/gap9/pmsis
 
 
 ########################

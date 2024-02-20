@@ -49,9 +49,9 @@ void application(void * arg) {
   int initial_dir = 1;
 
   void *ram_input = ram_malloc(input_size);
-      load_file_to_ram(ram_input, "inputs.hex");
-      ram_read(l2_buffer, ram_input, l2_input_size);
-      network_run(l2_buffer, 1386000, l2_buffer, 0, initial_dir);
+  load_file_to_ram(ram_input, "inputs.hex");
+  ram_read(l2_buffer, ram_input, l2_input_size);
+  network_run(l2_buffer, 1386000, l2_buffer, 0, initial_dir);
 
   ram_free(ram_input, input_size);
   network_terminate();
