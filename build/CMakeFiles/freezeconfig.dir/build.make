@@ -68,7 +68,7 @@ include CMakeFiles/freezeconfig.dir/progress.make
 
 CMakeFiles/freezeconfig:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lanmei/merge_net_MIBMI_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying current config to app directory"
-	/home/lanmei/gap_sdk_private/utils/cmake/kconfigtool.py /home/lanmei/gap_sdk_private/utils/kconfig/Kconfig /home/lanmei/gap_sdk_private/install/workstation/sdk.config /home/lanmei/merge_net_MIBMI_new /home/lanmei/merge_net_MIBMI_new/build --ccache CONFIG_OPENOCD_SCRIPT_DEFAULT="YES" --ccache CONFIG_PLATFORM_BOARD="YES" --ccache CONFIG_PLATFORM_GVSOC="NO" --cmakeconfig /home/lanmei/merge_net_MIBMI_new/build/__vars.cmake --appconfigname sdk.config freeze /home/lanmei/merge_net_MIBMI_new/build/__vars_timestamp
+	/home/lanmei/gap_sdk_private/utils/cmake/kconfigtool.py /home/lanmei/gap_sdk_private/utils/kconfig/Kconfig /home/lanmei/gap_sdk_private/install/workstation/sdk.config /home/lanmei/merge_net_MIBMI_new /home/lanmei/merge_net_MIBMI_new/build --cmakeconfig /home/lanmei/merge_net_MIBMI_new/build/__vars.cmake --appconfigname sdk.config freeze /home/lanmei/merge_net_MIBMI_new/build/__vars_timestamp
 
 freezeconfig: CMakeFiles/freezeconfig
 freezeconfig: CMakeFiles/freezeconfig.dir/build.make

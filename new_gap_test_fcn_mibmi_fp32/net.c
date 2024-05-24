@@ -143,7 +143,7 @@ static inline void compute_memory_occupation(){
   // Kernel gradient
   L1_memocc_bytes += Tker_l0*sizeof(float); 
   // Output gradient
-  L1_memocc_bytes += Tout_l0*sizeof(float);
+  //L1_memocc_bytes += Tout_l0*sizeof(float);
 
   // Input data
   L2_memocc_bytes += L0_IN_CH*sizeof(float);
@@ -156,7 +156,7 @@ static inline void compute_memory_occupation(){
   // Weight gradient
   L2_memocc_bytes += L0_WEIGHTS*sizeof(float);
   // Input gradient
-  L2_memocc_bytes += L0_IN_CH*sizeof(float);
+  //L2_memocc_bytes += L0_IN_CH*sizeof(float);
 }
 
 static inline void update_weights_and_bias()

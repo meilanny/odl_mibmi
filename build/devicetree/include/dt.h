@@ -1,6 +1,6 @@
 // ############################################################################# 
 // Device tree content
-// Generation time : 22/05/2024 16:41:28 
+// Generation time : 24/05/2024 11:13:30 
 //
 // THIS IS A GENERATED FILE, DO NOT EDIT !
 //
@@ -109,7 +109,7 @@ pi_err_t pi_close(pi_device_e device_enum);
 #define PADFUN2_INIT ( 0x55555555 )
 #define PADFUN3_INIT ( 0x55555555 )
 #define PADFUN4_INIT ( 0x55555555 )
-#define PADFUN5_INIT ( 0x55555001 )
+#define PADFUN5_INIT ( 0x55555555 )
 
 // Reprog registers ************************************************************
 
@@ -144,9 +144,4 @@ pi_err_t pi_close(pi_device_e device_enum);
 #define PAD_MX25U51245G_DQ1  ( PI_PAD_003 )
 #define PAD_MX25U51245G_DQ0  ( PI_PAD_002 )
 #define PAD_MX25U51245G_CK   ( PI_PAD_001 )
-#define PAD_JTAG_TRST        ( PI_PAD_085 )
-#define PAD_JTAG_TMS         ( PI_PAD_084 )
-#define PAD_JTAG_TDO         ( PI_PAD_083 )
-#define PAD_JTAG_TDI         ( PI_PAD_082 )
-#define PAD_JTAG_TCK         ( PI_PAD_081 )
 

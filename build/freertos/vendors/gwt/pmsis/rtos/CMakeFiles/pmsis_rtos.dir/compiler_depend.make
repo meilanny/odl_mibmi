@@ -2375,7 +2375,8 @@ freertos/vendors/gwt/pmsis/rtos/CMakeFiles/pmsis_rtos.dir/mem_slab/mem_slab.c.ob
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_team_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
-  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h
+  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h
 
 freertos/vendors/gwt/pmsis/rtos/CMakeFiles/pmsis_rtos.dir/os/device.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/pmsis/rtos/os/device.c \
   /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/pmsis/include/pmsis_types.h \
@@ -3303,6 +3304,8 @@ freertos/vendors/gwt/pmsis/rtos/CMakeFiles/pmsis_rtos.dir/pi_log.c.obj: /home/la
 /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/pmsis/rtos/os/pmsis_evt.c:
 
 /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/pmsis/rtos/os/device.c:
+
+/home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h:
 
 /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h:
 

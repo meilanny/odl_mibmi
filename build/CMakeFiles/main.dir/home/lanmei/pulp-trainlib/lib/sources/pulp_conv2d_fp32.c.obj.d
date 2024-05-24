@@ -571,6 +571,7 @@ CMakeFiles/main.dir/home/lanmei/pulp-trainlib/lib/sources/pulp_conv2d_fp32.c.obj
  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+ /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h \
  /home/lanmei/pulp-trainlib/lib/include/pulp_train_defines.h \
  /home/lanmei/pulp-trainlib/lib/include/pulp_matmul_fp32.h \
  /home/lanmei/pulp-trainlib/lib/include/pulp_im2col_fp32.h \

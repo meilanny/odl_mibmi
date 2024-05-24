@@ -158,7 +158,6 @@ list(APPEND TARGET_PREPROCESSOR
                                 
                                 -DFS_READ_FS
                                 #-DCONFIG_FLASH_LAYOUT_CUSTOM
-                                #-DVERBOSE
                                 -DSINGLE_CORE_DMA
                                 
                                 -DOPTIMIZE
@@ -166,6 +165,8 @@ list(APPEND TARGET_PREPROCESSOR
                                 
                                 -DSTATS
                                 #-DPROF_NET
+                                -DMEMOCC_COMP
+                                #-DVERBOSE
                                 
 )
 

@@ -570,6 +570,7 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/i2c/driver/i2c_slav
  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+ /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h \
  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/i2c/driver/i2c_internal.h \
  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/i2c/driver/udma_i2c.h \
  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/i2c/driver/i2c_slave_internal.h

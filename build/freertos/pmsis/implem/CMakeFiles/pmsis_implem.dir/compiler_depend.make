@@ -572,6 +572,7 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/cluster/driver/clus
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/include/pmsis/implem/linker.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/include/pmsis/implem/utils.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/archi/chips/gap9_v2/include/archi/itc/itc.h \
@@ -1147,7 +1148,8 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/efuse/driver/efuse.
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_team_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
-  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h
+  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/fc_event/driver/fc_event.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/fc_event/driver/fc_event.c \
   /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/drivers/fc_event.h \
@@ -2151,7 +2153,8 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/fll/driver/fll.c.ob
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_team_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
-  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h
+  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/gpio/driver/gpio.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/gpio/driver/gpio.c \
   /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/chips/gap9/gpio.h \
@@ -2723,7 +2726,8 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/gpio/driver/gpio.c.
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_team_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
-  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h
+  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/i2c/driver/i2c.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/i2c/driver/i2c.c \
   /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/pmsis/include/pmsis.h \
@@ -3296,6 +3300,7 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/i2c/driver/i2c.c.ob
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/i2c/driver/i2c_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/i2c/driver/udma_i2c.h
 
@@ -3870,6 +3875,7 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/i2c/driver/i2c_slav
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/i2c/driver/i2c_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/i2c/driver/udma_i2c.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/i2c/driver/i2c_slave_internal.h
@@ -4444,7 +4450,8 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/i2s/driver/i2s.c.ob
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_team_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
-  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h
+  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/maestro/driver/maestro.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/maestro/driver/maestro.c \
   /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/pmsis/include/pmsis_types.h \
@@ -5018,7 +5025,8 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/maestro/driver/maes
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_team_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
-  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h
+  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/maestro/driver/maestro_irq.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/maestro/driver/maestro_irq.c \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/maestro/include/pmsis/implem/maestro.h \
@@ -6009,7 +6017,8 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/pad/driver/pad.c.ob
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_team_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
-  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h
+  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/quiddikey/driver/quiddikey_internal.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/quiddikey/driver/quiddikey_internal.c \
   /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/pmsis/include/pmsis.h \
@@ -6581,7 +6590,8 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/quiddikey/driver/qu
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_team_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
-  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h
+  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/timer/driver/timer.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/timer/driver/timer.c \
   /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/pmsis/include/pmsis_types.h \
@@ -7153,7 +7163,8 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/timer/driver/timer.
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_team_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
-  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h
+  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/udma_aes/driver/aes.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/udma_aes/driver/aes.c \
   /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/pmsis/include/pmsis.h \
@@ -7726,6 +7737,7 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/udma_aes/driver/aes
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/udma_aes/include/pmsis/implem/aes_internal.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/udma_aes/driver/aes_internal.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/udma_aes/driver/aes_internal.c \
@@ -8299,6 +8311,7 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/udma_aes/driver/aes
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/udma_aes/include/pmsis/implem/aes_internal.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/udma_aes_dual_core/driver/aes_dual_core_internal.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/udma_aes_dual_core/driver/aes_dual_core_internal.c \
@@ -8872,6 +8885,7 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/udma_aes_dual_core/
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/udma_aes_dual_core/include/pmsis/implem/aes_dual_core_internal.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/udma_core/driver/udma_core.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/udma_core/driver/udma_core.c \
@@ -9444,7 +9458,8 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/udma_core/driver/ud
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_team_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
-  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h
+  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/udma_octospi/driver/octospi.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/udma_octospi/driver/octospi.c \
   /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/pmsis/include/pmsis.h \
@@ -10016,7 +10031,8 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/chips/gap9/udma_octospi/driver
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_team_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
-  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h
+  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/malloc/alloc.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/malloc/alloc.c \
   /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/pmsis/include/pmsis.h \
@@ -10588,7 +10604,8 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/malloc/alloc.c.obj: /home/lanm
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_team_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
-  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h
+  /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h
 
 freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/malloc/alloc_pool.c.obj: /home/lanmei/gap_sdk_private/rtos/pmsis/implem/malloc/alloc_pool.c \
   /home/lanmei/gap_sdk_private/rtos/pmsis/os/freeRTOS/vendors/gwt/libs/include/string.h \
@@ -11482,6 +11499,8 @@ freertos/pmsis/implem/CMakeFiles/pmsis_implem.dir/utils/ctors_dtors.c.obj: /home
 /home/lanmei/gap_sdk_private/rtos/pmsis/implem/malloc/pi_malloc.c:
 
 /home/lanmei/gap_sdk_private/rtos/pmsis/implem/include/pmsis/implem/utils.h:
+
+/home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h:
 
 /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h:
 

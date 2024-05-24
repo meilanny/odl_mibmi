@@ -577,6 +577,7 @@ libs/gap_lib/CMakeFiles/gap_lib.dir/wav_io/wavIO.c.obj: /home/lanmei/gap_sdk_pri
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/cl_dma.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/uart_cl_internal.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h \
+  /home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/bsp/include/bsp/ram.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/bsp/include/bsp/ram/hyperram.h \
   /home/lanmei/gap_sdk_private/rtos/pmsis/bsp/include/bsp/ram/extern_alloc.h
@@ -587,6 +588,8 @@ libs/gap_lib/CMakeFiles/gap_lib.dir/wav_io/wavIO.c.obj: /home/lanmei/gap_sdk_pri
 /home/lanmei/gap_sdk_private/rtos/pmsis/bsp/include/bsp/ram/hyperram.h:
 
 /home/lanmei/gap_sdk_private/rtos/pmsis/bsp/include/bsp/ram.h:
+
+/home/lanmei/gap_sdk_private/rtos/pmsis/api/include/pmsis/platforms/gvsoc.h:
 
 /home/lanmei/gap_sdk_private/rtos/pmsis/implem/chips/gap9/cluster/include/pmsis/implem/implem.h:
 

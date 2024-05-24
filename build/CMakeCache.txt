@@ -387,12 +387,6 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Set by make menuconfig or -D
-CONFIG_OPENOCD_SCRIPT_DEFAULT:INTERNAL=YES
-//Set by make menuconfig or -D
-CONFIG_PLATFORM_BOARD:INTERNAL=YES
-//Set by make menuconfig or -D
-CONFIG_PLATFORM_GVSOC:INTERNAL=NO
 //Details about finding Python
 FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/home/lanmei/anaconda3/envs/gap_sdk/bin/python3.8][cfound components: Interpreter ][v3.8.18()]
 //Path to a program.
