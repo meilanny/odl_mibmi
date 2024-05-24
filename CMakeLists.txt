@@ -32,7 +32,7 @@ set(CURDIR              /home/lanmei/merge_net_MIBMI_new/)
 set(BUILD_DIR           ${CURDIR}/build)
 
 set(TRAINLIB_DIR        /home/lanmei/pulp-trainlib)
-set(TRAINLIB_FILES_DIR  ${CURDIR}/new_gap_test_fcn_mibmi_fp32)
+set(TRAINLIB_FILES_DIR  ${CURDIR}/new_gap_test_fcn_mibmi_fp32) # new_gap_test_fcn_mibmi_fp32_LwF
 
 # PULP trainlib
 set(MATMUL_TYPE_FW_L0  0)         # Selects which optimized matmul to be used in FW (see mm_manager_list.txt or "MM_manager()" body to verify which one is called)
@@ -154,18 +154,18 @@ list(APPEND TARGET_PREPROCESSOR
                                 -DUSE_${FLASH_TYPE}
                                 -DUSE_${RAM_TYPE}
                                 
-				#-DCONFIG_GAP9_EVK
+				-DCONFIG_GAP9_EVK
                                 
                                 -DFS_READ_FS
                                 #-DCONFIG_FLASH_LAYOUT_CUSTOM
-                                -DVERBOSE
+                                #-DVERBOSE
                                 -DSINGLE_CORE_DMA
                                 
                                 -DOPTIMIZE
                                 -DMATMUL_TYPE=${MATMUL_TYPE}
                                 
                                 -DSTATS
-                                -DPROF_NET
+                                #-DPROF_NET
                                 
 )
 

@@ -31,7 +31,7 @@ source $GAP_SDK_HOME/configs/gap9_evk_audio.sh
 #platform=gvsoc
 cmake -B build
 
-cmake --build build -t menuconfig
-cmake --build build -t run CORE=8 platform=gvsoc # --verbose
+cmake --build build -t menuconfig -j 10
+cmake --build build -t run CORE=8 platform=board # --verbose
 
 #make clean all run CORE=8 platform=gvsoc
